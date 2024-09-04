@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSSSIETW AI ChatBot</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light gray background */
+            padding-top: 20px; /* Add some space at the top */
+        }
+        .chat-container {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff; /* White background for chat container */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .botText, .userText {
+            margin: 10px 0;
+        }
+        .userInput {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+                <h1 class="text-center">GSSSIETW AI ChatBot</h1>
+                <div class="chat-container">
+                    <div id="chatbox">
+                        <div class="botText"><span>Hi! I'm Your GSSSIETW bot.</span></div>
+                    </div>
+                    <form id="chatForm">
+                        <div class="row userInput">
+                            <div class="col-md-10">
+                                <input id="text" type="text" name="msg" placeholder="Message" class="form-control">
+                            </div>
+                            <div class="col-md-2">
+                                <button type="submit" id="send" class="btn btn-warning btn-block">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#chatForm").on("submit", function(event) {
+                event.preventDefault();
+                var rawText = $("#text").val().trim();
+                if (rawText === "") return;
+
+                var userHtml = '<div class="userText"><span>' + rawText + '</span></div>';
+                $("#text").val("");
+
+                $("#chatbox").append(userHtml);
+                scrollToBottom();
+
+                $.ajax({
+                    data: {
+                        msg: rawText,
+                    },
+                    type: "POST",
+                    url: "/get",
+                }).done(function(data) {
+                    var botHtml = '<div class="botText"><span>' + data + '</span></div>';
+                    $("#chatbox").append(botHtml);
+                    scrollToBottom();
+                });
+            });
+
+            function scrollToBottom() {
+                var chatbox = document.getElementById("chatbox");
+                chatbox.scrollTop = chatbox.scrollHeight;
+            }
+        });
+    </script>
+</body>
+
+</html>

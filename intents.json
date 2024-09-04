@@ -1,0 +1,1369 @@
+{
+    "intents":[{
+        "tag":"greetings",
+        "patterns":["hi there", "hello","haroo","yaw","wassup", "hi", "hey", "holla", "hello"],
+        "responses":["Hello Thanks for checking in","hi there,how can I help you"],
+        "context":[""]
+    },
+    {
+      "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["have a nice time, welcome back again", "bye bye"],
+            "context": [""]  
+    },
+
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+        "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+        "context": [""]
+    },
+    {
+        "tag": "name1",
+        "patterns": ["what's your name?","who are you?"],
+        "responses": ["I'm just a chat agent. I only exist in the internet","I'm a GSSSIETW chat agent"],
+        "context": [""]
+    },
+    {
+        "tag": "name",
+        "patterns": ["my name is ", "I'm ","I am"],
+        "responses": ["Oooh great to meet you {n}. How may I assist you {n}", "Oh, I'll keep that in mind {n}"],
+        "context": [""]
+    },
+    {
+        "tag": "name1",
+        "patterns": ["what's your name?","who are you?"],
+        "responses": ["I'm just a chat agent. I only exist in the internet","I'm a GSSSIETW chat agent"
+    
+    ],
+        "context": [""]
+    },
+    {
+        "tag": "GSSS Institute of Engineering & Technology for Women",
+        "patterns": ["Tell me about the college","what is this college","what is GSSSIETW"],
+        "responses":["GSSS Institute of Engineering and Technology for Women (GSSSIETW) is an educational institution located in Mysore, Karnataka, which is only for womens","GSSSIETW aims to provide quality education, foster academic excellence, and create technical opportunities for women"],
+        "context": [""]
+    },
+    {
+        "tag":"vision",
+        "patterns":["What is the vision of the college","What vision does the collge have"],
+        "responses":["To become a recognized world class Women Educational Institution, by imparting professional education to the students, creating technical opportunities through academic excellence and technical achievements,with ethical values"],
+        "context":[""]
+    },
+    {
+        "tag":"address",
+        "patterns":["where is the college located","what is the address of the college"],
+        "responses":["Metagalli Industrial Area, New Building K R S Road, Mysuru, Karnataka 570016"],
+        "context":[""]
+    },
+    {
+        "tag":"mission",
+        "patterns":["What is the mission of the college","What mission does the college have"],
+        "responses":["1.To support value based education with state of art infrastructure.",
+        "2.To empower women with the additional skill for professional future career",
+        "3.To enrich students with research blends in order to fulfill the International challenges",
+        "4.To create multidisciplinary center of excellence",
+        "5.To achieve Accreditation standards towards International education recognition.",
+        "6.To establish more Post Graduate & Research course.",
+        "7.To increase Doctorates numbers towards the Research quality of academics."],
+        "context":[""]
+    },
+    {
+        "tag":"Core values",
+        "patterns":["What are the core values of the college","What are the core values of GSSSIETW"],
+        "responses":["1. Empowered Women",
+        "2.Value Based Education",
+        "3.Get Trained to Sustain!",
+        "4.Vision Mission Support"],
+        "context":[""]
+    },
+    {
+        "tag":"courses",
+        "patterns":["What are the courses offered by the college","What are the courses offered by GSSSIETW","Give the list of courses offered by the college"],
+        "responses":["GSSSIETW offers both Undergraduate and postgraduate program such as B.E Computer Science and Engineering,B.E Information Science and Engineering,B.E Artificial Intelligence and Machine Learning Engineering,B.E Artificial Intelligence and Data Science etc.. and postgraduation programs like M.tech Computer Science and M.tech Digital Communication "],
+        "context":[""]
+    },
+    {
+        "tag":"Principal",
+        "patterns":["Who is the principal of the college","who is the principal of GSSSIETW"],
+        "responses":["Dr. Shivakumar. M is the principal of GSSSIETW for more details click this link : https://www.geethashishu.in/about/principal-s-desk"],
+        "context":[""]
+    },
+    {
+        "tag":"why womens college",
+        "patterns":["Why this college is Womens college","What is the reason for the college being Womens only","Story behind why this college is womens only"],
+        "responses":["Women empowerment is a cliche'd slogan today. But for Smt. Rukmini bai Pandit educating the girl child and liberating her was a very valid cause for which she dedicated her entire life. Thus a technical institute exclusively for women, the first of its kind in Karnataka, is a fitting tribute to her memory and ideals."],
+        "context":[""]
+    },
+    {
+        "tag":"founder",
+        "patterns":["Who is the founder of the college","Who is the founder of GSSSIETW or GSSS(R)"],
+        "responses":["GSSS (R) Geetha Shishu Shikshana Sangha (R) was founded by Prof. B.S.Pandit Retired Professor, from SJCE, Mysore & a true visionary."],
+        "context":[""]
+    },
+    {
+        "tag":"Prof. B.S.Pandit",
+        "patterns":["who is Prof. B.S.Pandit "],
+        "responses":["Prof.B.S.Pandit is the founder of GSSSIETW","As an academician, worked for more than 4 decades in the line of technical education, started this first women's engineering college in Karnataka. With his leadership qualities, determination & dedication to serve for the cause of education, this institute is constantly upgrading its quality, infrastructure and other various developments according to present day needs."],
+        "context":[""]
+
+    },
+    {
+        "tag":"CEO",
+        "patterns":["who is the CEO of the GSSS(R)","Who is the CEO of the GSSSIETW"],
+        "responses":["R.K.Bharath is the CEO of GSSS(R)"],
+        "context":[""]
+    },
+    {
+        "tag":"R.K.Bharath",
+        "patterns":["who is the R.K.Bharath"],
+        "responses":["R.K.Bharath is the CEO and Board Member of the GSSS(R)"],
+        "context":[""]
+    },
+    {
+        "tag":"started",
+        "patterns":["How the college started","How the college started"],
+        "responses":["1.GSSS has had a humble beginning in the year 1981 with only 1 classroom and 8 children.", "2 Today, GSSS has carved a strong niche for itself in the educational scene of not only the state of Karnataka but the whole of India with more than 4000 students and 350 employees working out of 3 campuses in the city of Mysore."],
+        "context":[""]
+
+    },
+    {
+      "tag":"CET code",
+      "patterns":["What is the cet code of the college"],
+      "responses":["E133"],
+      "context":[""]  
+    },
+    {
+        "tag":"COMEDK code",
+        "patterns":["what is the COMEDK Code"],
+        "responses":["E055"],
+        "context":[""]
+    },
+    {
+        "tag":"Achievements of Department Computer Science ",
+        "patterns":["What are the achievements of the Department of Computer Science","What are the achievements of cse department","Mention some Achievements of CSE"],
+        "responses":["To know about the achievements of the Department of CSE Check out this link https://geethashishu.in/departments/departments-ug/computer-science-engineering"],
+        "context":[""]
+    },
+    
+      {
+            "tag": "Department Intake",
+            "patterns": ["What is the current intake of the CSE department?", "How many students are admitted to the department?", "What is the intake capacity of the Computer Science department?"],
+            "responses": ["The intake of the Department of Computer Science and Engineering is 120 students."],
+            "context": [""]
+        },
+        {
+            "tag": "Department Establishment",
+            "patterns": ["When was the Computer Science department established?", "What is the history of the department?", "Tell me about the establishment of the CSE department."],
+            "responses": ["The department was established in 2003 with an intake of 60 students, which was increased to 120 in 2012."],
+            "context": [""]
+        },
+        {
+            "tag": "Accreditation",
+            "patterns": ["Is the Computer Science department accredited?", "What are the accreditation details of the department?", "Is CSE accredited by any board?"],
+            "responses": ["The department is accredited by the National Board of Accreditation (NBA), New Delhi, from 01.07.2017 to 30.06.2020, 01.07.2020 to 30.06.2023, and 01.07.2023 to 30.06.2026."],
+            "context": [""]
+        },
+        {
+            "tag": "Faculty Information",
+            "patterns": ["How many faculty members are in the CSE department?", "Tell me about the faculty of the Computer Science department.", "How many Ph.D. holders are there in the department?"],
+            "responses": ["The department has 21 faculty members, with 3 Ph.D. holders, and 12 pursuing Ph.D. in various disciplines."],
+            "context": [""]
+        },
+        {
+            "tag": "Placement Statistics",
+            "patterns": ["What is the placement rate of the CSE department?", "Tell me about the placement records.", "What is the highest package offered to CSE students?"],
+            "responses": ["93% of the final year students are placed in reputed companies with the highest package of Rs. 21.04 Lakhs per annum."],
+            "context": [""]
+        },
+        {
+            "tag": "Department Achievements",
+            "patterns": ["What are the achievements of the Department of Computer Science?", "What are the achievements of the CSE department?", "Mention some achievements of CSE."],
+            "responses": ["To know about the achievements of the Department of CSE, check out this link: https://geethashishu.in/departments/departments-ug/computer-science-engineering"],
+            "context": [""]
+        },
+        {
+            "tag": "Research Centre",
+            "patterns": ["Does the department have a research centre?", "Tell me about the research facilities in the department.", "Is there a research centre in the CSE department?"],
+            "responses": ["A VTU recognized Research Centre is established to facilitate faculty members in pursuing their Ph.D."],
+            "context": [""]
+        },
+        {
+            "tag": "Department Funds",
+            "patterns": ["Has the department received any funding?", "Tell me about the funds acquired by the CSE department.", "Did the department receive funds from VGST?"],
+            "responses": ["The department acquired Rs 30 Lakhs funds from the Vision Group on Science and Technology (VGST), Government of Karnataka, for the establishment of the 'Innovative Smart Systems and IoT Laboratory' during the period 2016-2019."],
+            "context": [""]
+        },
+        {
+            "tag": "Awards and Recognition",
+            "patterns": ["Has the department received any awards?", "What awards has the CSE department won?", "Tell me about the awards received by the department."],
+            "responses": ["The department received the Best Accredited Student Branch Award from CSI for 3 consecutive years."],
+            "context": [""]
+        },
+        {
+            "tag": "Industry Collaboration",
+            "patterns": ["Are there any collaborations with industries?", "Does the department have MoUs with companies?", "Tell me about the industry's involvement with the department."],
+            "responses": ["The department has signed a Memorandum of Understanding (MoUs) with leading industries."],
+            "context": [""]
+        },
+        {
+            "tag": "Student Development",
+            "patterns": ["Does the department encourage student participation in conferences?", "Are there opportunities for students to attend workshops?", "How does the department support student development?"],
+            "responses": ["The department encourages students to participate in International/National Conferences and workshops to showcase their knowledge and imbibe valuable professional development opportunities."],
+            "context": [""]
+        },
+        {
+            "tag": "Infrastructure",
+            "patterns": ["What infrastructure does the CSE department have?", "Does the department meet AICTE norms?", "Is the department's infrastructure up to standards?"],
+            "responses": ["The department has the required infrastructure as per AICTE and VTU norms."],
+            "context": [""]
+        },
+        {
+            "tag": "Vision",
+            "patterns": ["What is the vision of the CSE department?", "Tell me about the department's vision.", "What future goals does the department have?"],
+            "responses": ["The vision of the department is to disseminate knowledge and develop future leaders in Information Technology with a research blend."],
+            "context": [""]
+        },
+        {
+            "tag": "Mission",
+            "patterns": ["What is the mission of the CSE department?", "Tell me about the department's mission.", "What are the mission statements of the department?"],
+            "responses": [
+                "M1: To equip students with a continuous learning process to acquire Hardware, Software, and Computing knowledge to face new challenges.",
+                "M2: To inculcate the core Computer Science and Engineering components with discipline among the students by providing a state-of-the-art learner-centric environment.",
+                "M3: To impart essential knowledge through quality and value-based education to mold them as complete Computer Science Engineers with ethical values, leadership roles, and good communication skills.",
+                "M4: To provide a platform to collaborate with successful people from entrepreneurial and research domains to learn and accomplish."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Program Educational Objectives",
+            "patterns": ["What are the Program Educational Objectives (PEOs) of the CSE department?", "Tell me about the department's educational objectives.", "What are the goals of the CSE program?"],
+            "responses": [
+                "PEO1: To produce graduates satisfying Computer Science Engineering challenges.",
+                "PEO2: To meet dynamic requirements of IT industries professionally and ethically along with social responsibilities.",
+                "PEO3: To provide Computer Science and Engineering graduates to support the nation’s self-employment growth with women entrepreneurial skills.",
+                "PEO4: To equip graduates with a minimum research blend for further career challenges internationally."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Program Outcomes",
+            "patterns": ["What are the Program Outcomes (POs) of the CSE department?", "Tell me about the outcomes of the department's program.", "What are the expected results of the CSE program?"],
+            "responses": [
+                "PO1: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to solve complex engineering problems.",
+                "PO2: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+                "PO3: Design/development of solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with consideration for public health, safety, and cultural, societal, and environmental considerations.",
+                "PO4: Conduct investigations of complex problems: Use research-based knowledge and research methods, including design of experiments, analysis, and interpretation of data, and synthesis of information to provide valid conclusions.",
+                "PO5: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex engineering activities with an understanding of limitations.",
+                "PO6: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.",
+                "PO7: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+                "PO8: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+                "PO9: Individual and teamwork: Function effectively as an individual and as a member or leader in diverse teams and multidisciplinary settings.",
+                "PO10: Communication: Communicate effectively on complex engineering activities with the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+                "PO11: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one’s work as a member and leader in a team to manage projects and multidisciplinary environments.",
+                "PO12: Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Program Specific Outcomes",
+            "patterns": ["What are the Program Specific Outcomes (PSOs) of the CSE department?", "Tell me about the specific outcomes of the department's program.", "What are the specialized results of the CSE program?"],
+            "responses": [
+                "PSO1: Enable students to design systems and system architecture, inculcating software, computing, and analytical ability.",
+                "PSO2: Enhance skills to be successful in National and International level competitions like GATE, GRE, GMAT."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Monday Schedule 6A CSE",
+            "patterns": ["What is the Monday schedule for 6A CSE?", "Tell me the timetable for Monday for 6A CSE.", "What classes are on Monday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - SE&PM",
+                "10:00 to 11:00 - CG&FIP",
+                "11:15 to 12:15 - CG&FIP Laboratory Batch 01 / FSD Laboratory Batch 02",
+                "12:15 to 1:15 - CG&FIP Laboratory Batch 01 / FSD Laboratory Batch 02",
+                "2:15 to 3:15 - Skill Lab",
+                "3:15 to 4:15 - CG&IP Laboratory Batch 02 / FSD Laboratory Batch 03"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Tuesday Schedule 6A CSE",
+            "patterns": ["What is the Tuesday schedule for 6A CSE?", "Tell me the timetable for Tuesday for 6A CSE.", "What classes are on Tuesday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - FSD",
+                "10:00 to 11:00 - RES",
+                "11:15 to 12:15 - SE&PM",
+                "12:15 to 1:15 - AJP",
+                "2:15 to 3:15 - Physical Activities",
+                "3:15 to 4:15 - CG&IP Laboratory Batch 03 / FSD Laboratory Batch 01"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Wednesday Schedule 6A CSE",
+            "patterns": ["What is the Wednesday schedule for 6A CSE?", "Tell me the timetable for Wednesday for 6A CSE.", "What classes are on Wednesday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - AJP",
+                "10:00 to 11:00 - FSD",
+                "11:15 to 12:15 - SE&PM",
+                "12:15 to 1:15 - Library Slot",
+                "2:15 to 3:15 - Mini-Project Work",
+                "3:15 to 4:15 - CG&IP Laboratory Batch 03 / FSD Laboratory Batch 01"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Thursday Schedule 6A CSE",
+            "patterns": ["What is the Thursday schedule for 6A CSE?", "Tell me the timetable for Thursday for 6A CSE.", "What classes are on Thursday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - RES",
+                "10:00 to 11:00 - FSD",
+                "11:15 to 12:15 - AJP",
+                "12:15 to 1:15 - Library Slot / Remedial Class",
+                "2:15 to 3:15 - Mini-Project Work",
+                "3:15 to 4:15 - Library Slot"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Friday Schedule 6A CSE",
+            "patterns": ["What is the Friday schedule for 6A CSE?", "Tell me the timetable for Friday for 6A CSE.", "What classes are on Friday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - CG&FIP",
+                "10:00 to 11:00 - SE&PM",
+                "11:15 to 12:15 - CG&FIP",
+                "12:15 to 1:15 - AJP",
+                "2:15 to 3:15 - RES",
+                "3:15 to 4:15 - Library Slot"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Saturday Schedule 6A CSE",
+            "patterns": ["What is the Saturday schedule for 6A CSE?", "Tell me the timetable for Saturday for 6A CSE.", "What classes are on Saturday for 6A CSE?"],
+            "responses": [
+                "9:00 to 10:00 - SE&PM [Tutorial]",
+                "10:00 to 11:00 - FSD [Tutorial]",
+                "11:15 to 12:15 - CG&FIP [Tutorial]",
+                "12:15 to 1:15 - AJP [Tutorial]"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Subject Codes 6A CSE",
+            "patterns": ["What are the subject codes for 6A CSE?", "Tell me the subject codes for 6A CSE.", "List the subject codes and names for 6A CSE."],
+            "responses": [
+                "21CS61: Software Engineering & Project Management - Dr. Madhu M Nayak",
+                "21CS62: Fullstack Development - Dr. Vishvesh J",
+                "21CS63: Computer Graphics & Fundamentals of Image Processing - Ashwini M S",
+                "21CS64: Advanced Java Programming - Usharani J",
+                "21ECS62: Renewable Energy Resources - Dr. Bharathesh Patel N",
+                "21ME67: Mini Project - Rajath A N",
+                "21INT68: Innovation/Entrepreneurship/Societal Internship - Shreekalshmi C M"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Lab Incharges 6A CSE",
+            "patterns": ["Who are the lab incharges for 6A CSE?", "Tell me the lab incharges for 6A CSE.", "List the lab incharges for 6A CSE."],
+            "responses": [
+                "21CSL66: Computer Graphics & Image Processing Laboratory - Nischitha B S"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Counselors 6A CSE",
+            "patterns": ["Who are the counselors for 6A CSE?", "Tell me the counselors for 6A CSE.", "List the counselors for 6A CSE."],
+            "responses": [
+                "Batch C1: Rummana Firdaus",
+                "Batch C2: Nischitha B S",
+                "Batch C3: Rajini D"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Class Coordinator 6A CSE",
+            "patterns": ["Who is the class coordinator for 6A CSE?", "Tell me the class coordinator for 6A CSE.", "List the class coordinator for 6A CSE."],
+            "responses": [
+                "Ashwini M S"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "Department Overview",
+            "patterns": ["Tell me about the Computer Science & Engineering department.", "Give me an overview of the CSE department.", "What does the CSE department offer?"],
+            "responses": ["The Computer Science & Engineering department at GSSSIETW focuses on providing quality education and training in the field of computer science. It offers undergraduate and postgraduate programs designed to equip students with the necessary skills and knowledge for the IT industry."],
+            "context": [""]
+        },
+            {
+                "tag": "Monday Schedule 6A CSE",
+                "patterns": ["What is the Monday schedule for 6A CSE?", "Tell me the timetable for Monday for 6A CSE.", "What classes are on Monday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - SE&PM",
+                    "10:00 to 11:00 - CG&FIP",
+                    "11:15 to 12:15 - CG&FIP Laboratory Batch 01 / FSD Laboratory Batch 02",
+                    "12:15 to 1:15 - CG&FIP Laboratory Batch 01 / FSD Laboratory Batch 02",
+                    "2:15 to 3:15 - Skill Lab",
+                    "3:15 to 4:15 - CG&IP Laboratory Batch 02 / FSD Laboratory Batch 03"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Tuesday Schedule 6A CSE",
+                "patterns": ["What is the Tuesday schedule for 6A CSE?", "Tell me the timetable for Tuesday for 6A CSE.", "What classes are on Tuesday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - FSD",
+                    "10:00 to 11:00 - RES",
+                    "11:15 to 12:15 - SE&PM",
+                    "12:15 to 1:15 - AJP",
+                    "2:15 to 3:15 - Physical Activities",
+                    "3:15 to 4:15 - CG&IP Laboratory Batch 03 / FSD Laboratory Batch 01"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Wednesday Schedule 6A CSE",
+                "patterns": ["What is the Wednesday schedule for 6A CSE?", "Tell me the timetable for Wednesday for 6A CSE.", "What classes are on Wednesday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - AJP",
+                    "10:00 to 11:00 - FSD",
+                    "11:15 to 12:15 - SE&PM",
+                    "12:15 to 1:15 - Library Slot",
+                    "2:15 to 3:15 - Mini-Project Work",
+                    "3:15 to 4:15 - CG&IP Laboratory Batch 03 / FSD Laboratory Batch 01"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Thursday Schedule 6A CSE",
+                "patterns": ["What is the Thursday schedule for 6A CSE?", "Tell me the timetable for Thursday for 6A CSE.", "What classes are on Thursday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - RES",
+                    "10:00 to 11:00 - FSD",
+                    "11:15 to 12:15 - AJP",
+                    "12:15 to 1:15 - Library Slot / Remedial Class",
+                    "2:15 to 3:15 - Mini-Project Work",
+                    "3:15 to 4:15 - Library Slot"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Friday Schedule 6A CSE",
+                "patterns": ["What is the Friday schedule for 6A CSE?", "Tell me the timetable for Friday for 6A CSE.", "What classes are on Friday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - CG&FIP",
+                    "10:00 to 11:00 - SE&PM",
+                    "11:15 to 12:15 - CG&FIP",
+                    "12:15 to 1:15 - AJP",
+                    "2:15 to 3:15 - RES",
+                    "3:15 to 4:15 - Library Slot"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Saturday Schedule 6A CSE",
+                "patterns": ["What is the Saturday schedule for 6A CSE?", "Tell me the timetable for Saturday for 6A CSE.", "What classes are on Saturday for 6A CSE?"],
+                "responses": [
+                    "9:00 to 10:00 - SE&PM [Tutorial]",
+                    "10:00 to 11:00 - FSD [Tutorial]",
+                    "11:15 to 12:15 - CG&FIP [Tutorial]",
+                    "12:15 to 1:15 - AJP [Tutorial]"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Subject Codes 6A CSE",
+                "patterns": ["What are the subject codes for 6A CSE?", "Tell me the subject codes for 6A CSE.", "List the subject codes and names for 6A CSE."],
+                "responses": [
+                    "21CS61: Software Engineering & Project Management - Dr. Madhu M Nayak",
+                    "21CS62: Fullstack Development - Dr. Vishvesh J",
+                    "21CS63: Computer Graphics & Fundamentals of Image Processing - Ashwini M S",
+                    "21CS64: Advanced Java Programming - Usharani J",
+                    "21ECS62: Renewable Energy Resources - Dr. Bharathesh Patel N",
+                    "21ME67: Mini Project - Rajath A N",
+                    "21INT68: Innovation/Entrepreneurship/Societal Internship - Shreekalshmi C M"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Lab Incharges 6A CSE",
+                "patterns": ["Who are the lab incharges for 6A CSE?", "Tell me the lab incharges for 6A CSE.", "List the lab incharges for 6A CSE."],
+                "responses": [
+                    "21CSL66: Computer Graphics & Image Processing Laboratory - Nischitha B S"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Counselors 6A CSE",
+                "patterns": ["Who are the counselors for 6A CSE?", "Tell me the counselors for 6A CSE.", "List the counselors for 6A CSE."],
+                "responses": [
+                    "Batch C1: Rummana Firdaus",
+                    "Batch C2: Nischitha B S",
+                    "Batch C3: Rajini D"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Class Coordinator 6A CSE",
+                "patterns": ["Who is the class coordinator for 6A CSE?", "Tell me the class coordinator for 6A CSE.", "List the class coordinator for 6A CSE."],
+                "responses": [
+                    "Ashwini M S"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vision and Mission",
+                "patterns": ["What is the vision of the CSE department?", "Tell me about the mission of the CSE department.", "What are the vision and mission of the Computer Science & Engineering department?"],
+                "responses": ["The vision of the CSE department is to achieve academic excellence in computer science and engineering through innovative teaching and research. The mission includes providing quality education, promoting research and development, and fostering ethical and professional values in students."],
+                "context": [""]
+            },
+            {
+                "tag": "Programs Offered",
+                "patterns": ["What programs are offered by the CSE department?", "Tell me about the courses available in the CSE department.", "What degrees can I earn in the Computer Science & Engineering department?"],
+                "responses": ["The CSE department offers undergraduate (B.E.) and postgraduate (M.Tech) programs. The curriculum is designed to cover fundamental and advanced topics in computer science and engineering, preparing students for both industry and research careers."],
+                "context": [""]
+            },
+            {
+                "tag": "Facilities",
+                "patterns": ["What facilities are available in the CSE department?", "Tell me about the infrastructure of the CSE department.", "What labs and resources does the Computer Science & Engineering department have?"],
+                "responses": ["The CSE department boasts state-of-the-art infrastructure including well-equipped laboratories, modern classrooms, and a rich library. The department provides various resources to support students' learning and research activities."],
+                "context": [""]
+            },
+            {
+                "tag": "Faculty",
+                "patterns": ["Who are the faculty members in the CSE department?", "Tell me about the professors in the Computer Science & Engineering department.", "Can you list the faculty of the CSE department?"],
+                "responses": ["The CSE department has a team of highly qualified and experienced faculty members who are dedicated to providing quality education and mentoring to students. They actively engage in research and development activities to stay updated with the latest advancements in the field."],
+                "context": [""]
+            },
+            {
+                "tag": "Achievements",
+                "patterns": ["What are the achievements of the CSE department?", "Tell me about the accolades received by the CSE department.", "What are some notable accomplishments of the Computer Science & Engineering department?"],
+                "responses": ["The CSE department has received numerous accolades for its academic excellence, research contributions, and student achievements. The department is known for its strong placement records and collaborations with leading industries and research organizations."],
+                "context": [""]
+            },
+            {
+                "tag": "MoU Objectives",
+                "patterns": ["What are the objectives of the MoU?", "Tell me about the MoU objectives.", "List the objectives of the MoU."],
+                "responses": [
+                    "To set up the Research Laboratory and provide research facilities for students and faculty members.",
+                    "To provide resource persons to conduct workshops, technical talks, conferences, and training programs (with hands-on sessions).",
+                    "To provide Internship, industrial visits, and assist students for placements.",
+                    "To arrange training programs on topics related to the curriculum."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "MoU with Drona Aviation",
+                "patterns": ["Tell me about the MoU with Drona Aviation.", "What is the MoU with Drona Aviation about?", "Give details of the MoU with Drona Aviation."],
+                "responses": [
+                    "A Memorandum of Understanding (MoU) between GSSSIETW, Mysuru and Drona Aviation Private Limited, Thane, Maharashtra was signed on 27.07.2022. The MoU focuses on preparing students for internships, organizing workshops, and other skill development programs."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Drona Aviation Details",
+                "patterns": ["What is Drona Aviation?", "Tell me about Drona Aviation.", "What does Drona Aviation do?"],
+                "responses": [
+                    "Drona Aviation Pvt. Ltd., Thane, Maharashtra is a top Skill Development Company registered under the Government of India. They regularly conduct workshops on recent technologies, offer internship programs, and encourage students to become future entrepreneurs by imparting critical thinking skills leading to creativity and innovation."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "MoU with Karunadu Technologies",
+                "patterns": ["Tell me about the MoU with Karunadu Technologies.", "What is the MoU with Karunadu Technologies about?", "Give details of the MoU with Karunadu Technologies."],
+                "responses": [
+                    "A Memorandum of Understanding (MoU) between GSSSIETW, Mysuru and Karunadu Technologies Private Limited, Bengaluru was signed on 04.12.2021. The MoU focuses on preparing students for Hackathon competitions, internships, organizing workshops, and other skill development programs."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Karunadu Technologies Details",
+                "patterns": ["What is Karunadu Technologies?", "Tell me about Karunadu Technologies.", "What does Karunadu Technologies do?"],
+                "responses": [
+                    "Karunadu Technologies Private Limited, Bengaluru is a premier startup industry with a strong background in hardware and software. They offer a wide range of skill development programs for the benefit of the student community and work to bridge skill gaps essential for accreditation bodies like the National Board of Accreditation (NBA), New Delhi."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "MoU with Tequed Labs",
+                "patterns": ["Tell me about the MoU with Tequed Labs.", "What is the MoU with Tequed Labs about?", "Give details of the MoU with Tequed Labs."],
+                "responses": [
+                    "An MoU was established with Tequed Labs, Bengaluru on 10th August 2019 to create a Centre of Excellence in IoT, to host student competitions and Hackathons on IoT, and to train GSSSIETW students for national and international level competitions and Hackathons."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "MoU with Allinnov Research",
+                "patterns": ["Tell me about the MoU with Allinnov Research.", "What is the MoU with Allinnov Research about?", "Give details of the MoU with Allinnov Research."],
+                "responses": [
+                    "An MoU was established with Allinnov Research & Development Pvt. Ltd., Mysuru on 14th March 2018 to collaborate and develop innovative patented products of industry with the help of industry representatives, the research team, and students and faculty of the institution."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Faculty Overview of M.B Rajashekar",
+                "patterns": ["Tell me about M.B. Rajashekar.", "Who is M.B. Rajashekar?", "Give an overview of M.B. Rajashekar."],
+                "responses": [
+                    "M.B. Rajashekar is a faculty member in the Department of Computer Science & Engineering at GSSSIETW, Mysuru. He holds various qualifications and has extensive experience in teaching and research."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Education Details of M.B Rajashekar",
+                "patterns": ["What is the educational background of M.B. Rajashekar?", "Tell me about M.B. Rajashekar's education.", "What degrees does M.B. Rajashekar hold?"],
+                "responses": [
+                    "M.B. Rajashekar has completed his M.Tech in Computer Science and Engineering and is currently pursuing his Ph.D."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Professional Experience of M.B Rajashekar",
+                "patterns": ["What is the professional experience of M.B. Rajashekar?", "Tell me about M.B. Rajashekar's work experience.", "Where has M.B. Rajashekar worked?"],
+                "responses": [
+                    "M.B. Rajashekar has extensive teaching experience in the field of Computer Science and Engineering and has contributed to various research projects and publications."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Research Publications of M.B Rajashekar",
+                "patterns": ["What are the research publications of M.B. Rajashekar?", "Tell me about the research work of M.B. Rajashekar.", "List the research publications by M.B. Rajashekar."],
+                "responses": [
+                    "M.B. Rajashekar has published several research papers in national and international journals and conferences, focusing on areas such as network security and data mining."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Awards Received by  M.B Rajashekar",
+                "patterns": ["What awards has M.B. Rajashekar received?", "Tell me about the awards received by M.B. Rajashekar.", "List the awards won by M.B. Rajashekar."],
+                "responses": [
+                    "M.B. Rajashekar has received several awards for his contributions to teaching and research in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Contact Details of M.B Rajashekar ",
+                "patterns": ["How can I contact M.B. Rajashekar?", "Give me the contact details of M.B. Rajashekar.", "What is the email address of M.B. Rajashekar?"],
+                "responses": [
+                    "You can contact M.B. Rajashekar at the Department of CSE, GSSSIETW, Mysuru. Email: mb.rajashekar@gsss.edu.in"
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vision Statement of M.B Rajashekar ",
+                "patterns": ["What is the vision of M.B. Rajashekar?", "Tell me about M.B. Rajashekar's vision.", "What does M.B. Rajashekar aspire to achieve?"],
+                "responses": [
+                    "M.B. Rajashekar aims to contribute to the advancement of Computer Science and Engineering through innovative teaching methods and impactful research."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Overview",
+                "patterns": ["Tell me about Dr. Raviraj P.", "Who is Dr. Raviraj P.?", "Give an overview of Dr. Raviraj P."],
+                "responses": [
+                    "Dr. Raviraj P. is a Professor and Head of the Department of Computer Science & Engineering at GSSSIETW, Mysuru. He has extensive experience in teaching and research."
+                ],
+                "context": [""]
+            },
+
+            {
+            "tag": "Dr. Raviraj P. Education Details",
+             "patterns": ["What is the educational background of Dr. Raviraj P.?", "Tell me about Dr. Raviraj P.'s education.", "What degrees does Dr. Raviraj P. hold?"],
+            "responses": [
+              "Dr. Raviraj P. holds a Ph.D. in Computer Science & Engineering, an M.Tech in Computer & Information Technology, and a B.E. in Computer Science & Engineering."
+              ],
+              "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Professional Experience",
+                "patterns": ["What is the professional experience of Dr. Raviraj P.?", "Tell me about Dr. Raviraj P.'s work experience.", "Where has Dr. Raviraj P. worked?"],
+                "responses": [
+                    "Dr. Raviraj P. has 19 years of teaching experience, holding various positions including Professor & Head at GSSSIETW and other institutions."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Consultancy Projects",
+                "patterns": ["Tell me about the consultancy projects of Dr. Raviraj P.", "What consultancy projects has Dr. Raviraj P. worked on?", "List the consultancy projects by Dr. Raviraj P."],
+                "responses": [
+                    "Dr. Raviraj P. received a grant of Rs. 5,00,000 for a project on 'Underwater Robotic Fish for Surveillance and Pollution monitoring' and completed the 'MRC-Unit Distribution System' project."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Awards Received",
+                "patterns": ["What awards has Dr. Raviraj P. received?", "Tell me about the awards received by Dr. Raviraj P.", "List the awards won by Dr. Raviraj P."],
+                "responses": [
+                    "Dr. Raviraj P. has received several awards including the 'Rhastriya Gaurav Award-2015', 'Shri P.K.Das Memorial Best Faculty Award-2012', 'Young Achiever Award-2016', and 'Best Circuit Faculty Finalist Award-2017'."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Contact Details",
+                "patterns": ["How can I contact Dr. Raviraj P.?", "Give me the contact details of Dr. Raviraj P.", "What is the email address of Dr. Raviraj P.?"],
+                "responses": [
+                    "You can contact Dr. Raviraj P. at the Department of CSE, GSSSIETW, Mysuru. Email: raviraj@gsss.edu.in, Phone: 0821-4257304/305 (EXT-204)."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Dr. Raviraj P. Vision Statement",
+                "patterns": ["What is the vision of Dr. Raviraj P.?", "Tell me about Dr. Raviraj P.'s vision.", "What does Dr. Raviraj P. aspire to achieve?"],
+                "responses": [
+                    "Dr. Raviraj P. aims to develop ideas to serve communities, prepare students for professional engineering practice, and implement skills necessary for modern business, industry, and communities."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vishwesh J. About",
+                "patterns": [
+                    "Tell me about Vishwesh J.",
+                    "Who is Vishwesh J.?",
+                    "What does Vishwesh J. do?"
+                ],
+                "responses": [
+                    "Vishwesh J. is an Assistant Professor in the Computer Science and Engineering department. He specializes in Data Science, Machine Learning, and Artificial Intelligence."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vishwesh J. Qualifications",
+                "patterns": [
+                    "What are Vishwesh J.'s qualifications?",
+                    "Tell me about Vishwesh J.'s educational background.",
+                    "What degrees does Vishwesh J. have?"
+                ],
+                "responses": [
+                    "Vishwesh J. has a B.Tech in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vishwesh J. Research Interests",
+                "patterns": [
+                    "What are Vishwesh J.'s research interests?",
+                    "Tell me about Vishwesh J.'s research areas.",
+                    "What topics does Vishwesh J. study?"
+                ],
+                "responses": [
+                    "Vishwesh J.'s research interests include Data Science, Machine Learning, and Artificial Intelligence."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Vishwesh J. Contact Information",
+                "patterns": [
+                    "How can I contact Vishwesh J.?",
+                    "What is Vishwesh J.'s email address?",
+                    "Tell me the contact details for Vishwesh J."
+                ],
+                "responses": [
+                    "You can reach Vishwesh J. via email at vishwesh.j@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Madhu M. Nayak About",
+                "patterns": [
+                    "Tell me about Madhu M. Nayak.",
+                    "Who is Madhu M. Nayak?",
+                    "What is Madhu M. Nayak's background?"
+                ],
+                "responses": [
+                    "Madhu M. Nayak is an Assistant Professor in the Department of Information Science and Engineering. She is known for her work in various areas related to computer science and engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Madhu M. Nayak Qualifications",
+                "patterns": [
+                    "What are Madhu M. Nayak's qualifications?",
+                    "Tell me about Madhu M. Nayak's educational background.",
+                    "What degrees does Madhu M. Nayak hold?"
+                ],
+                "responses": [
+                    "Madhu M. Nayak has completed her B.E. in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Madhu M. Nayak Research Interests",
+                "patterns": [
+                    "What are Madhu M. Nayak's research interests?",
+                    "Tell me about Madhu M. Nayak's research areas.",
+                    "What topics does Madhu M. Nayak focus on?"
+                ],
+                "responses": [
+                    "Madhu M. Nayak's research interests include Data Science, Machine Learning, and Software Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Madhu M. Nayak Contact Information",
+                "patterns": [
+                    "How can I contact Madhu M. Nayak?",
+                    "What is Madhu M. Nayak's email address?",
+                    "Tell me the contact details for Madhu M. Nayak."
+                ],
+                "responses": [
+                    "You can reach Madhu M. Nayak via email at madhu.nayak@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Asha Rani M About",
+                "patterns": [
+                    "Tell me about Asha Rani M.",
+                    "Who is Asha Rani M.?",
+                    "What is Asha Rani M.'s background?"
+                ],
+                "responses": [
+                    "Asha Rani M. is an Assistant Professor in the Department of Computer Science and Engineering. She has a strong academic background and is involved in various research and teaching activities."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Asha Rani M Qualifications",
+                "patterns": [
+                    "What are Asha Rani M.'s qualifications?",
+                    "Tell me about Asha Rani M.'s educational background.",
+                    "What degrees does Asha Rani M. hold?"
+                ],
+                "responses": [
+                    "Asha Rani M. holds a B.E. in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Asha Rani M Research Interests",
+                "patterns": [
+                    "What are Asha Rani M.'s research interests?",
+                    "Tell me about Asha Rani M.'s research areas.",
+                    "What topics does Asha Rani M. focus on?"
+                ],
+                "responses": [
+                    "Asha Rani M.'s research interests include Machine Learning, Data Science, and Artificial Intelligence."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Asha Rani M Contact Information",
+                "patterns": [
+                    "How can I contact Asha Rani M.?",
+                    "What is Asha Rani M.'s email address?",
+                    "Tell me the contact details for Asha Rani M."
+                ],
+                "responses": [
+                    "You can contact Asha Rani M. via email at asha.rani@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J About",
+                "patterns": [
+                    "Tell me about Usha Rani J.",
+                    "Who is Usha Rani J.?",
+                    "What is Usha Rani J.'s background?"
+                ],
+                "responses": [
+                    "Usha Rani J. is an Assistant Professor in the Department of Computer Science and Engineering. She is dedicated to her teaching and research responsibilities."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Qualifications",
+                "patterns": [
+                    "What are Usha Rani J.'s qualifications?",
+                    "Tell me about Usha Rani J.'s educational background.",
+                    "What degrees does Usha Rani J. hold?"
+                ],
+                "responses": [
+                    "Usha Rani J. has completed her B.E. in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Research Interests",
+                "patterns": [
+                    "What are Usha Rani J.'s research interests?",
+                    "Tell me about Usha Rani J.'s research areas.",
+                    "What topics does Usha Rani J. focus on?"
+                ],
+                "responses": [
+                    "Usha Rani J.'s research interests include areas related to Computer Science and Engineering, focusing on topics such as Machine Learning and Data Analysis."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Contact Information",
+                "patterns": [
+                    "How can I contact Usha Rani J.?",
+                    "What is Usha Rani J.'s email address?",
+                    "Tell me the contact details for Usha Rani J."
+                ],
+                "responses": [
+                    "You can reach Usha Rani J. via email at usha.rani@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Publications",
+                "patterns": [
+                    "What are some publications by Usha Rani J.?",
+                    "Tell me about Usha Rani J.'s research papers.",
+                    "Does Usha Rani J. have any publications?"
+                ],
+                "responses": [
+                    "Usha Rani J. has authored several research papers in the field of Computer Science and Engineering. For a detailed list of her publications, please refer to her profile on the institution's website or academic databases."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Courses",
+                "patterns": [
+                    "What courses does Usha Rani J. teach?",
+                    "Tell me about the courses taught by Usha Rani J.",
+                    "What subjects does Usha Rani J. cover in her classes?"
+                ],
+                "responses": [
+                    "Usha Rani J. teaches various courses in the Department of Computer Science and Engineering. For specific course details, please check the course catalog or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Academic Achievements",
+                "patterns": [
+                    "What are Usha Rani J.'s academic achievements?",
+                    "Tell me about the awards and honors received by Usha Rani J.",
+                    "Has Usha Rani J. received any notable achievements?"
+                ],
+                "responses": [
+                    "Usha Rani J. has received several awards and honors for her contributions to teaching and research in Computer Science and Engineering. Details of her achievements can be found on her academic profile."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Research Projects",
+                "patterns": [
+                    "What research projects is Usha Rani J. involved in?",
+                    "Tell me about the research projects led by Usha Rani J.",
+                    "What are the current research projects of Usha Rani J.?"
+                ],
+                "responses": [
+                    "Usha Rani J. is involved in several research projects related to Computer Science and Engineering. For details about her ongoing and completed projects, please visit her research profile or contact her directly."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Office Hours",
+                "patterns": [
+                    "When are Usha Rani J.'s office hours?",
+                    "What are the office hours for Usha Rani J.?",
+                    "Tell me about Usha Rani J.'s availability for meetings."
+                ],
+                "responses": [
+                    "Usha Rani J.'s office hours are typically listed on the department's website or posted on her office door. For the most accurate information, please check these resources or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Teaching Philosophy",
+                "patterns": [
+                    "What is Usha Rani J.'s teaching philosophy?",
+                    "Tell me about Usha Rani J.'s approach to teaching.",
+                    "How does Usha Rani J. approach her teaching?"
+                ],
+                "responses": [
+                    "Usha Rani J. follows a teaching philosophy focused on fostering student engagement and understanding through interactive learning and practical applications of computer science concepts."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Usha Rani J Professional Memberships",
+                "patterns": [
+                    "What professional organizations is Usha Rani J. a member of?",
+                    "Tell me about Usha Rani J.'s professional memberships.",
+                    "Is Usha Rani J. part of any professional societies?"
+                ],
+                "responses": [
+                    "Usha Rani J. is a member of several professional organizations related to Computer Science and Engineering. Details about her memberships can be found on her academic profile or institutional webpage."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N About",
+                "patterns": [
+                    "Tell me about Rajath A. N.",
+                    "Who is Rajath A. N.?",
+                    "What is Rajath A. N.'s background?"
+                ],
+                "responses": [
+                    "Rajath A. N. is an Assistant Professor in the Department of Computer Science and Engineering. He has a strong academic and research background in his field."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Qualifications",
+                "patterns": [
+                    "What are Rajath A. N.'s qualifications?",
+                    "Tell me about Rajath A. N.'s educational background.",
+                    "What degrees does Rajath A. N. hold?"
+                ],
+                "responses": [
+                    "Rajath A. N. has completed his B.E. in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Research Interests",
+                "patterns": [
+                    "What are Rajath A. N.'s research interests?",
+                    "Tell me about Rajath A. N.'s research areas.",
+                    "What topics does Rajath A. N. focus on?"
+                ],
+                "responses": [
+                    "Rajath A. N.'s research interests include areas such as Data Science, Machine Learning, and Software Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Contact Information",
+                "patterns": [
+                    "How can I contact Rajath A. N.?",
+                    "What is Rajath A. N.'s email address?",
+                    "Tell me the contact details for Rajath A. N."
+                ],
+                "responses": [
+                    "You can reach Rajath A. N. via email at rajath.a.n@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Publications",
+                "patterns": [
+                    "What are some publications by Rajath A. N.?",
+                    "Tell me about Rajath A. N.'s research papers.",
+                    "Does Rajath A. N. have any publications?"
+                ],
+                "responses": [
+                    "Rajath A. N. has authored several research papers in his field. For a detailed list of his publications, please refer to his profile on the institution's website or academic databases."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Courses",
+                "patterns": [
+                    "What courses does Rajath A. N. teach?",
+                    "Tell me about the courses taught by Rajath A. N.",
+                    "What subjects does Rajath A. N. cover in his classes?"
+                ],
+                "responses": [
+                    "Rajath A. N. teaches various courses in the Department of Computer Science and Engineering. For specific course details, please check the course catalog or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Academic Achievements",
+                "patterns": [
+                    "What are Rajath A. N.'s academic achievements?",
+                    "Tell me about the awards and honors received by Rajath A. N.",
+                    "Has Rajath A. N. received any notable achievements?"
+                ],
+                "responses": [
+                    "Rajath A. N. has received several awards and honors for his contributions to teaching and research. Details of his achievements can be found on his academic profile."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Research Projects",
+                "patterns": [
+                    "What research projects is Rajath A. N. involved in?",
+                    "Tell me about the research projects led by Rajath A. N.",
+                    "What are the current research projects of Rajath A. N.?"
+                ],
+                "responses": [
+                    "Rajath A. N. is involved in several research projects related to Computer Science and Engineering. For details about his ongoing and completed projects, please visit his research profile or contact him directly."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Office Hours",
+                "patterns": [
+                    "When are Rajath A. N.'s office hours?",
+                    "What are the office hours for Rajath A. N.?",
+                    "Tell me about Rajath A. N.'s availability for meetings."
+                ],
+                "responses": [
+                    "Rajath A. N.'s office hours are typically listed on the department's website or posted on his office door. For the most accurate information, please check these resources or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Teaching Philosophy",
+                "patterns": [
+                    "What is Rajath A. N.'s teaching philosophy?",
+                    "Tell me about Rajath A. N.'s approach to teaching.",
+                    "How does Rajath A. N. approach his teaching?"
+                ],
+                "responses": [
+                    "Rajath A. N. follows a teaching philosophy focused on enhancing student engagement through practical applications and interactive learning methods."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Professional Memberships",
+                "patterns": [
+                    "What professional organizations is Rajath A. N. a member of?",
+                    "Tell me about Rajath A. N.'s professional memberships.",
+                    "Is Rajath A. N. part of any professional societies?"
+                ],
+                "responses": [
+                    "Rajath A. N. is a member of several professional organizations related to Computer Science and Engineering. Details about his memberships can be found on his academic profile or institutional webpage."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Conferences Attended",
+                "patterns": [
+                    "What conferences has Rajath A. N. attended?",
+                    "Tell me about the conferences Rajath A. N. has participated in.",
+                    "Has Rajath A. N. presented at any conferences?"
+                ],
+                "responses": [
+                    "Rajath A. N. has attended and presented at several conferences related to Computer Science and Engineering. For specific details, please refer to his profile or academic publications."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Research Grants",
+                "patterns": [
+                    "What research grants has Rajath A. N. received?",
+                    "Tell me about the research funding awarded to Rajath A. N.",
+                    "Has Rajath A. N. been awarded any research grants?"
+                ],
+                "responses": [
+                    "Rajath A. N. has been awarded several research grants for his projects in Computer Science and Engineering. Details of these grants can be found on his research profile or institutional webpage."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Awards and Honors",
+                "patterns": [
+                    "What awards has Rajath A. N. received?",
+                    "Tell me about the honors given to Rajath A. N.",
+                    "Has Rajath A. N. received any awards?"
+                ],
+                "responses": [
+                    "Rajath A. N. has received multiple awards and honors for his contributions to research and teaching. For a detailed list, please refer to his academic profile."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Academic Background",
+                "patterns": [
+                    "What is Rajath A. N.'s academic background?",
+                    "Tell me about Rajath A. N.'s academic history.",
+                    "What is the educational background of Rajath A. N.?"
+                ],
+                "responses": [
+                    "Rajath A. N. completed his undergraduate and postgraduate studies in Computer Science and Engineering, focusing on advanced topics in the field."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Teaching Schedule",
+                "patterns": [
+                    "What is Rajath A. N.'s teaching schedule?",
+                    "When does Rajath A. N. teach his classes?",
+                    "Tell me about the schedule of Rajath A. N.'s classes."
+                ],
+                "responses": [
+                    "Rajath A. N.'s teaching schedule is available on the department's website or the course catalog. For the most current information, please check these resources or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Rajath A. N Professional Development",
+                "patterns": [
+                    "What professional development activities has Rajath A. N. been involved in?",
+                    "Tell me about Rajath A. N.'s professional development.",
+                    "Has Rajath A. N. participated in any workshops or training?"
+                ],
+                "responses": [
+                    "Rajath A. N. actively participates in professional development activities, including workshops and training sessions related to Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty About",
+                "patterns": [
+                    "Tell me about Shyleshwari M. Shetty.",
+                    "Who is Shyleshwari M. Shetty?",
+                    "What is Shyleshwari M. Shetty's background?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty is an Assistant Professor in the Department of Computer Science and Engineering. She is known for her academic contributions and involvement in various research activities."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Qualifications",
+                "patterns": [
+                    "What are Shyleshwari M. Shetty's qualifications?",
+                    "Tell me about Shyleshwari M. Shetty's educational background.",
+                    "What degrees does Shyleshwari M. Shetty hold?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty has completed her B.E. in Computer Science and Engineering and an M.Tech in Computer Science and Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Research Interests",
+                "patterns": [
+                    "What are Shyleshwari M. Shetty's research interests?",
+                    "Tell me about Shyleshwari M. Shetty's research areas.",
+                    "What topics does Shyleshwari M. Shetty focus on?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty's research interests include Machine Learning, Data Science, and Software Engineering."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Contact Information",
+                "patterns": [
+                    "How can I contact Shyleshwari M. Shetty?",
+                    "What is Shyleshwari M. Shetty's email address?",
+                    "Tell me the contact details for Shyleshwari M. Shetty."
+                ],
+                "responses": [
+                    "You can reach Shyleshwari M. Shetty via email at shyleshwari.shetty@example.com."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Publications",
+                "patterns": [
+                    "What are some publications by Shyleshwari M. Shetty?",
+                    "Tell me about Shyleshwari M. Shetty's research papers.",
+                    "Does Shyleshwari M. Shetty have any publications?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty has authored several research papers in her field. For a detailed list of her publications, please refer to her profile on the institution's website or academic databases."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Publications",
+                "patterns": [
+                    "What are some publications by Shyleshwari M. Shetty?",
+                    "Tell me about Shyleshwari M. Shetty's research papers.",
+                    "Does Shyleshwari M. Shetty have any publications?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty has authored several research papers in her field. For a detailed list of her publications, please refer to her profile on the institution's website or academic databases."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Courses",
+                "patterns": [
+                    "What courses does Shyleshwari M. Shetty teach?",
+                    "Tell me about the courses taught by Shyleshwari M. Shetty.",
+                    "What subjects does Shyleshwari M. Shetty cover in her classes?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty teaches various courses in the Department of Computer Science and Engineering. For specific course details, please check the course catalog or contact the department."
+                ],
+                "context": [""]
+            },
+            {
+                "tag": "Shyleshwari M. Shetty Academic Achievements",
+                "patterns": [
+                    "What are Shyleshwari M. Shetty's academic achievements?",
+                    "Tell me about the awards and honors received by Shyleshwari M. Shetty.",
+                    "Has Shyleshwari M. Shetty received any notable achievements?"
+                ],
+                "responses": [
+                    "Shyleshwari M. Shetty has received several awards and honors for her contributions to teaching and research. Details of her achievements can be found on her academic profile."
+                ],
+                "context": [""]
+            }
+   
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+    
+   
+    
+]
+}
